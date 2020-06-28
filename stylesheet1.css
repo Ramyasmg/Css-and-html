@@ -1,0 +1,95 @@
+body{
+    background: url("https://i.pinimg.com/originals/dc/ce/b1/dcceb1644c13f70559ab0fbce2f03d22.jpg");
+    font-family: "Times New Roman",serif;
+    font-style: italic;
+    font-size: 20px; 
+}
+table, th, td {
+            border: 1px solid black;
+			 border-collapse: collapse;
+			
+            outline-style: solid;
+            outline-color: blueviolet;
+            outline-width: thin;
+   }
+   tr:nth-child(even) {background-color:grey;}
+
+   [class="Java"] {
+  background: pink;
+}
+
+.clsimg
+{ float:left;
+margin-top: ;
+
+position: absolute;
+  left: 0px;
+  top:0px;
+  width: 70px;
+  margin: 50px;
+  border: 1px solid red;
+
+
+/*outline properties*/
+  outline-style: solid;
+  outline-color: pink;
+  outline-width: thick
+    
+}
+
+
+h1 {
+    text-align: center;
+color: orange;
+
+padding: 20px;
+}
+h2 {
+text-align:justify;
+color:crimson;
+}
+a:link {
+background-color:palegreen;
+
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:visited {
+color: darkblue;
+}
+a:hover {
+color:red;
+}
+a:active {
+color: blue;
+}
+
+.a
+{
+    list-style-type: square;
+    color: blue;
+}
+.invisible
+{
+    display:none;
+}
+.tableright {
+  position: absolute;
+  top:0px;
+  right: 200px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+ol {
+    list-style-type: none;
+    top:10px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list{
+    display: inline;
+  }
